@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "_note": "Polly runtime configuration. Public; contains no secrets.",
+  "notice": "",
+  "google": {
+    "enabled": true,
+    "endpoint": "https://translate.googleapis.com/translate_a/single",
+    "query": "client=gtx&sl={src}&tl={tgt}&dt=t",
+    "method": "POST",
+    "parse_open": "[[[\"",
+    "parse_close": "\",\""
+  }
+}
